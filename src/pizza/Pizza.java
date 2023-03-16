@@ -76,6 +76,7 @@ public class Pizza extends java.awt.Frame {
         label1.setBounds(10, 60, 112, 26);
         label1.getAccessibleContext().setAccessibleName("label1");
 
+        jTable1.setFont(new java.awt.Font("Inter", 0, 10)); // NOI18N
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
