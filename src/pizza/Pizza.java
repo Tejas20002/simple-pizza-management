@@ -73,7 +73,7 @@ public class Pizza extends java.awt.Frame {
         label1.setFont(new java.awt.Font("Dialog", 3, 18)); // NOI18N
         label1.setText("Size of Pizza");
         jPanel1.add(label1);
-        label1.setBounds(10, 60, 112, 26);
+        label1.setBounds(10, 80, 112, 26);
         label1.getAccessibleContext().setAccessibleName("label1");
 
         jTable1.setFont(new java.awt.Font("Inter", 0, 10)); // NOI18N
@@ -89,21 +89,21 @@ public class Pizza extends java.awt.Frame {
         jScrollPane1.setViewportView(jTable1);
 
         jPanel1.add(jScrollPane1);
-        jScrollPane1.setBounds(160, 60, 452, 260);
+        jScrollPane1.setBounds(160, 80, 452, 260);
 
         label2.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
         label2.setText("Total");
         jPanel1.add(label2);
-        label2.setBounds(620, 150, 60, 50);
+        label2.setBounds(620, 170, 60, 50);
 
         jLabel1.setFont(new java.awt.Font("Inter", 1, 18)); // NOI18N
         jLabel1.setText("QTY");
         jPanel1.add(jLabel1);
-        jLabel1.setBounds(20, 230, 70, 30);
+        jLabel1.setBounds(20, 250, 70, 30);
 
         txtqty.setFont(new java.awt.Font("Inter", 0, 18)); // NOI18N
         jPanel1.add(txtqty);
-        txtqty.setBounds(20, 260, 70, 40);
+        txtqty.setBounds(20, 280, 70, 40);
 
         txttotal.setAlignment(java.awt.Label.CENTER);
         txttotal.setBackground(new java.awt.Color(255, 255, 255));
@@ -111,7 +111,7 @@ public class Pizza extends java.awt.Frame {
         txttotal.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
         txttotal.setText("0");
         jPanel1.add(txttotal);
-        txttotal.setBounds(680, 160, 100, 30);
+        txttotal.setBounds(680, 180, 100, 30);
 
         button1.setBackground(new java.awt.Color(0, 0, 255));
         button1.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
@@ -122,16 +122,16 @@ public class Pizza extends java.awt.Frame {
             }
         });
         jPanel1.add(button1);
-        button1.setBounds(620, 60, 90, 30);
+        button1.setBounds(620, 80, 90, 30);
 
         jLabel2.setFont(new java.awt.Font("Inter", 1, 14)); // NOI18N
         jLabel2.setText("Name");
         jPanel1.add(jLabel2);
-        jLabel2.setBounds(10, 30, 40, 18);
+        jLabel2.setBounds(10, 50, 40, 18);
 
         name.setFont(new java.awt.Font("Inter", 1, 14)); // NOI18N
         jPanel1.add(name);
-        name.setBounds(60, 20, 220, 30);
+        name.setBounds(60, 40, 220, 30);
 
         button2.setBackground(new java.awt.Color(0, 0, 204));
         button2.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
@@ -142,7 +142,7 @@ public class Pizza extends java.awt.Frame {
             }
         });
         jPanel1.add(button2);
-        button2.setBounds(620, 110, 90, 30);
+        button2.setBounds(620, 130, 90, 30);
 
         button3.setBackground(new java.awt.Color(0, 0, 255));
         button3.setFont(new java.awt.Font("Dialog", 2, 18)); // NOI18N
@@ -153,7 +153,7 @@ public class Pizza extends java.awt.Frame {
             }
         });
         jPanel1.add(button3);
-        button3.setBounds(620, 280, 90, 30);
+        button3.setBounds(620, 300, 90, 30);
 
         jPanel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.setToolTipText("");
@@ -220,7 +220,7 @@ public class Pizza extends java.awt.Frame {
         );
 
         jPanel1.add(jPanel2);
-        jPanel2.setBounds(10, 90, 90, 140);
+        jPanel2.setBounds(10, 110, 90, 140);
 
         add(jPanel1);
         jPanel1.setBounds(0, 0, 800, 360);
